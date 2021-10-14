@@ -14,6 +14,7 @@ interface MenuItem {
     }
   `]
 })
+
 export class SidemenuComponent{
   templateMenu: MenuItem[] = [
     {
@@ -43,5 +44,16 @@ export class SidemenuComponent{
       texto: 'Switchess',
       ruta: './reactive/switches'
     },
+  ]
+
+  authMenu: MenuItem[] = [
+    {
+      texto: 'Registro',
+      ruta: './auth/registro'
+    },
+    {
+      texto: 'Login',
+      ruta: './auth/login'
+    }
   ]
 }
